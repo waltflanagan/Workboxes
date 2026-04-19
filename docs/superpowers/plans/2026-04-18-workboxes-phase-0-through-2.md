@@ -73,6 +73,7 @@ Expected: no output, exit 0.
 File: `.gitignore`
 ```
 .DS_Store
+.claude/settings.local.json
 ```
 
 - [ ] **Step 3: Create `.gitkeep` files for empty folders**

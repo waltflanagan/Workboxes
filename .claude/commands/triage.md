@@ -17,6 +17,12 @@ Read these files in order:
    Read this first"). Do not read `## Open loops`, `## Projects`, or
    `## Recent activity` at this stage — they are not needed for routing.
 
+**Cross-check active areas.** The list of Areas on disk (`Areas/*/`) is the
+authoritative source. If `_system/README.md`'s `## Active areas` section
+disagrees with the filesystem (an area listed that doesn't exist, or an area
+on disk not listed), flag it to the user at session start and offer to fix
+the README before proceeding.
+
 ## 2. List inbox items
 
 Run: `ls -1 Inbox/*.md 2>/dev/null | sort` to list inbox files in chronological
@@ -34,18 +40,29 @@ tags: []
 
 ## 3. Propose a disposition for each item
 
+Items move whole. If an inbox item blends topics, route it to the best-fit
+workbox and note the other topic(s) in the rationale — do not split it here.
+Distillation and splitting are a later (Phase 7) workflow.
+
+Before proposing **Route** to a specific project, verify that
+`Areas/<area>/Projects/<slug>/` actually exists on disk. If it doesn't, the
+disposition must be **New project**, not Route.
+
 For each item, choose one:
 
 - **Route** — move to a specific `Areas/<area>/` (area-level note) or
-  `Areas/<area>/Projects/<project>/` (project file). Give a one-line rationale.
+  `Areas/<area>/Projects/<project>/` (project file, *folder must exist*).
+  Give a one-line rationale.
 - **New project** — propose creating `Areas/<area>/Projects/<slug>/` and
   routing the item there. Explain why this doesn't fit an existing project.
 - **New area** — propose creating `Areas/<slug>/`. Rare; only when the item
   genuinely belongs to a domain outside the seven starter areas.
 - **Discard** — duplicate, test, or genuinely throwaway. Requires explicit
   approval.
-- **Defer** — insufficient signal; leave in `Inbox/` and add a
-  `triaged_deferred_at: <ISO 8601 timestamp>` field to the item's frontmatter.
+- **Defer** — leave in `Inbox/` and add a `triaged_deferred_at: <ISO 8601
+  timestamp>` field to the item's frontmatter. Use for both "insufficient
+  signal to route" and "could plausibly go in multiple places and I want
+  the user to decide later" — state which in the rationale.
 
 ### Applying triage rules
 
