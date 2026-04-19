@@ -24,4 +24,4 @@ career reflection not tied to a project), land it here as an area note.
 
 ## Recent activity
 
-(none yet)
+- 2026-04-18 — Q2 planning kickoff notes (OKRs, search relevance workstream, infra migration)

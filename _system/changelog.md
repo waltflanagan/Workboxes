@@ -11,3 +11,9 @@ added or removed, schema tweaks. Newest entries at the bottom.
 - Seeded seven starter Areas: Work, Family, Relationships, Home, Health,
   Finances, Personal.
 - Seeded `_system/` operating files.
+
+### 2026-04-18 — Triage session
+
+- Triaged 3 items: 3 routed, 0 new projects created, 0 discarded, 0 deferred.
+- New rules: none.
+- New workboxes: none.

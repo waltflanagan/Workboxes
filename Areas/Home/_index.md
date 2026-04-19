@@ -23,4 +23,4 @@ should be their own project folders.
 
 ## Recent activity
 
-(none yet)
+- 2026-04-18 — Kitchen faucet dripping; cartridge replacement note

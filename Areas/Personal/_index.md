@@ -24,4 +24,4 @@ Phase 6 will design a dedicated structure for that material.
 
 ## Recent activity
 
-(none yet)
+- 2026-04-18 — Fiction reading list (The Overstory, Piranesi, Station Eleven)
