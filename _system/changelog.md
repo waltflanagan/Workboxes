@@ -17,3 +17,21 @@ added or removed, schema tweaks. Newest entries at the bottom.
 - Triaged 3 items: 3 routed, 0 new projects created, 0 discarded, 0 deferred.
 - New rules: none.
 - New workboxes: none.
+
+### 2026-04-19 — Phase 6a: Growth area
+
+- Scaffolded `Areas/Growth/` with seven content subfolders (Values,
+  Goals, Intentions, Themes, Therapy, Practices, Reviews) and their
+  `_index.md` MOCs.
+- Extended `_system/workbox-schema.md` with Growth content type
+  schemas, naming rules, the append exception, and status lifecycle.
+- Added `_system/growth-prompts.md` (daily/weekly/quarterly review
+  prompts; monthly and annual deferred to Phase 6b).
+- Added `_system/growth-surfacing.md` (Day-1 slug/alias scan rules
+  for triage; lexicons and fuzzy matching deferred to Phase 6b).
+- Added slash commands: `/growth-new`, `/review-daily`,
+  `/review-weekly`, `/review-quarterly`.
+- Extended `/triage` with Route-to-Growth disposition (new
+  reflection / new theme / append) and growth-surfacing scans.
+- Updated `_system/README.md` with Growth area, operating files, and
+  command inventory.
