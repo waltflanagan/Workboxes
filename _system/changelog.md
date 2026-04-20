@@ -35,3 +35,10 @@ added or removed, schema tweaks. Newest entries at the bottom.
   reflection / new theme / append) and growth-surfacing scans.
 - Updated `_system/README.md` with Growth area, operating files, and
   command inventory.
+
+### 2026-04-20 — Agent entrypoint
+
+- Added `AGENTS.md` at vault root pointing agents to `_system/README.md`.
+- Symlinked `CLAUDE.md` → `AGENTS.md` so Claude Code and opencode both
+  auto-load the entrypoint. Fixes silent failure where agents started in
+  the vault without reading the operating manual.
