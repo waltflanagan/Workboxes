@@ -23,4 +23,26 @@ doubt, downgrade confidence from `high` to `medium`.
 
 ## Rules
 
-(none yet)
+## Rule: school-email → Oscar
+Added: 2026-05-07
+Condition: source = gmail AND child = oscar (set by /school-email-triage)
+Action: route to Areas/Family/Oscar/
+Confidence: high
+
+## Rule: school-email → Nigel
+Added: 2026-05-07
+Condition: source = gmail AND child = nigel (set by /school-email-triage)
+Action: route to Areas/Family/Nigel/
+Confidence: high
+
+## Rule: school-email → Avery
+Added: 2026-05-07
+Condition: source = gmail AND child = avery (set by /school-email-triage)
+Action: route to Areas/Family/Avery/
+Confidence: high
+
+## Rule: district email → all children
+Added: 2026-05-07
+Condition: source = gmail AND child = all (set by /school-email-triage)
+Action: route to Areas/Family/Oscar/, Areas/Family/Nigel/, Areas/Family/Avery/ (one copy each)
+Confidence: high

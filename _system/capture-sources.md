@@ -88,6 +88,41 @@ matching `workbox-schema.md`'s inbox-item spec.)
 tolerates this. Voice-dictated drafts may lack a useful title; the filename
 slug will be derived from the first words.
 
+### Gmail — school email pipeline
+
+Pull source for school and district newsletters. Operated by
+`/school-email-triage` (not the standard `/triage` inbox flow). Notes are
+filed **directly into child project folders** — they never land in `Inbox/`.
+
+**Setup (one-time):**
+
+1. Connect the Gmail MCP connector in Cowork settings.
+2. Open `_system/school-email-senders.md` and fill in your actual sender
+   addresses / Gmail query strings for Oscar, Nigel, Avery, and the district.
+3. Run `/school-email-triage` — it will process threads from the last 30 days
+   on the first run (no existing high-water mark), then only new threads on
+   subsequent runs.
+
+**Provenance fields:**
+
+| Field | Value |
+|---|---|
+| `source` | `gmail` |
+| `source_id` | Gmail message ID |
+| `source_url` | Gmail permalink |
+| `child` | `oscar` / `nigel` / `avery` / `all` |
+| `email_type` | `newsletter` / `school-info` / `district-info` |
+
+**High-water marks:** stored in `_system/sync-state.json` under a key per
+sender label (e.g., `gmail_oscar_newsletter`). The command updates these after
+each successful batch.
+
+**Calendar integration:** requires Google Calendar MCP connector.
+
+**Things integration:** requires Things MCP connector. If not connected, action
+items are filed as vault notes with `has_actions: true` and a `## Action items`
+section for manual processing.
+
 ## Deferred sources
 
 Documented here with intended provenance fields so future pipelines stay
@@ -95,8 +130,6 @@ consistent.
 
 - **Day One** (Phase 3) — `source: dayone`, `source_id: <entry uuid>`. Pull
   sync via a `sync-dayone` script; photos inlined to `Attachments/`.
-- **Gmail** (Phase 5) — `source: gmail`, `source_id: <message id>`,
-  `source_url: <gmail permalink>`.
 - **Things** (Phase 5) — `source: things`, `source_id: <task uuid>`. Task
   state sync-back (if any) is a Phase 5 design decision.
 - **Voice Memos** (Phase 5) — `source: voice-memo`, `source_id: <recording

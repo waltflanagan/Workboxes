@@ -36,6 +36,17 @@ added or removed, schema tweaks. Newest entries at the bottom.
 - Updated `_system/README.md` with Growth area, operating files, and
   command inventory.
 
+### 2026-05-07 — School email triage pipeline
+
+- Created `Areas/Family/Projects/{oscar,nigel,avery}/_index.md`.
+- Added `_system/school-email-senders.md` (sender config; user must fill in real addresses).
+- Added `.claude/commands/school-email-triage.md` (dedicated command).
+- Extended `_system/workbox-schema.md` with `school-email` frontmatter type.
+- Activated Gmail in `_system/capture-sources.md` (school email pipeline, not general inbox).
+- Added 4 routing rules to `_system/triage-rules.md` (one per child + district).
+- Updated `Areas/Family/_index.md` with three child projects.
+- Seeded `_system/sync-state.json` with null high-water marks for all senders.
+
 ### 2026-04-20 — Agent entrypoint
 
 - Added `AGENTS.md` at vault root pointing agents to `_system/README.md`.
