@@ -21,6 +21,7 @@ topics (school, activities, medical) usually warrant their own project.
 - [[Oscar]] — Oscar: school emails, events, action items
 - [[Nigel]] — Nigel: school emails, events, action items
 - [[Avery]] — Avery: school emails, events, action items
+- [[oscar-therapist-search]] — Oscar: finding a therapist (emotional regulation, anxiety, ADHD)
 
 ## Recent activity
 

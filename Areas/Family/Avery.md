@@ -18,4 +18,4 @@ are filed in `Areas/Family/Avery/` by `/school-email-triage` — see
 
 ## Recent activity
 
-(none yet)
+- 2026-01-18 — Birthday idea: snow tools

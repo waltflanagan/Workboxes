@@ -44,6 +44,16 @@ Claude operates the vault using the files in `_system/`.
 Archived areas and projects live under `Archive/` mirroring the `Areas/`
 structure.
 
+## Resources wiki
+
+Cross-area reference content (people, places, services) lives under
+`Resources/` at the vault root. It is agent-maintained and wiki-style —
+any area can link to it. See `_system/workbox-schema.md` for the
+`Resources/` layout, `person` frontmatter, and update rules.
+
+- `Resources/People/` — CRM-style directory: one file per doctor, therapist,
+  teacher, coach, vendor, or other person the family interacts with.
+
 ## How to run triage
 
 Invoke `/triage` (Claude Code slash command, defined in

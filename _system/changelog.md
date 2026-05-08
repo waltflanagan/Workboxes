@@ -47,6 +47,28 @@ added or removed, schema tweaks. Newest entries at the bottom.
 - Updated `Areas/Family/_index.md` with three child projects.
 - Seeded `_system/sync-state.json` with null high-water marks for all senders.
 
+### 2026-05-08 — Amanda Fisher + therapist search details
+
+- Created `Resources/People/amanda-fisher.md` (first People entry).
+- Updated `Resources/People/_index.md` with her entry.
+- Created `Areas/Family/Projects/oscar-therapist-search/timeline.md` with
+  event log, follow-up dates, and full referral profile from Amanda's message.
+- Updated `oscar-therapist-search/_index.md` and `log.md` with referral details.
+
+### 2026-05-08 — Resources wiki
+
+- Created `Resources/_index.md` (wiki root MOC).
+- Created `Resources/People/_index.md` (CRM-style people directory).
+- Extended `_system/workbox-schema.md` with `Resources/` layout, `person`
+  frontmatter schema, body structure, and update rules.
+- Updated `_system/README.md` with Resources wiki section.
+
+### 2026-05-08 — Oscar therapist search project
+
+- Created `Areas/Family/Projects/oscar-therapist-search/_index.md` (project MOC).
+- Created `log.md` and `candidates.md` stubs within the project.
+- Updated `Areas/Family/_index.md` to reference the new project.
+
 ### 2026-04-20 — Agent entrypoint
 
 - Added `AGENTS.md` at vault root pointing agents to `_system/README.md`.
