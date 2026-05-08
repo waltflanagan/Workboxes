@@ -23,7 +23,9 @@ coach, specialist, vendor, etc.
 ## People
 
 - [[amanda-fisher|Fisher, Amanda]] — therapist, Belle Tower Group; parent/family work and Oscar search coordinator
+- [[mid-michigan-therapy|Mid-Michigan Therapy (Blatt, Janine)]] — East Lansing practice; referred out for Oscar search (no UHC availability)
 
 ## Recently updated
 
+- 2026-05-08 — [[mid-michigan-therapy|Mid-Michigan Therapy]] created
 - 2026-05-08 — [[amanda-fisher|Amanda Fisher]] created

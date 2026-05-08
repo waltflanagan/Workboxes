@@ -69,6 +69,15 @@ added or removed, schema tweaks. Newest entries at the bottom.
 - Created `log.md` and `candidates.md` stubs within the project.
 - Updated `Areas/Family/_index.md` to reference the new project.
 
+### 2026-05-08 — Robert L. Green school project + first Weekly Notes
+
+- Created `Areas/Family/Projects/robert-l-green/_index.md` (school project for Nigel & Avery).
+- Filed first Weekly Notes email: `2026-05-08-1200-robert-l-green-weekly-notes.md`.
+- Updated `_system/school-email-senders.md`: replaced Nigel/Avery placeholder entries with real BrightArrow query for Robert L. Green.
+- Updated `_system/sync-state.json` with high-water mark for `gmail_nigel-avery_robert-l-green-weekly-notes`.
+- Updated `Areas/Family/_index.md`, `Nigel.md`, `Avery.md` with recent activity.
+- Schema note: `child` field extended to `children: [nigel, avery]` for multi-child school notes.
+
 ### 2026-04-20 — Agent entrypoint
 
 - Added `AGENTS.md` at vault root pointing agents to `_system/README.md`.

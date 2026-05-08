@@ -25,33 +25,20 @@ senders:
 
 ---
 
-## Nigel
+## Nigel & Avery (Robert L. Green Elementary)
+
+Both Nigel and Avery attend Robert L. Green Elementary (East Lansing Public Schools).
+A single query covers both — filed as a school-level note under `Areas/Family/Projects/robert-l-green/`.
 
 ```yaml
-child: nigel
+child: nigel,avery
 senders:
-  - label: Nigel's school newsletter
-    gmail_query: "from:newsletter@nigels-school.example.com"
+  - label: Robert L. Green Weekly Notes
+    gmail_query: "subject:\"Robert L. Green Weekly Notes\""
     email_type: newsletter
 
-  - label: Nigel's school general info
-    gmail_query: "from:office@nigels-school.example.com"
-    email_type: school-info
-```
-
----
-
-## Avery
-
-```yaml
-child: avery
-senders:
-  - label: Avery's school newsletter
-    gmail_query: "from:newsletter@averys-school.example.com"
-    email_type: newsletter
-
-  - label: Avery's school general info
-    gmail_query: "from:office@averys-school.example.com"
+  - label: Robert L. Green school info
+    gmail_query: "from:brightarrow.com subject:\"Green Elementary\""
     email_type: school-info
 ```
 

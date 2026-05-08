@@ -11,6 +11,21 @@ consultations happen.
 
 ---
 
+### 2026-05-07 — Mid-Michigan Therapy: declined, referred out
+
+Janine Blatt (Intake Coordinator) replied that no therapists at MMT are
+currently accepting UHC. She provided 5 referrals to investigate:
+
+- Red Cedar Counseling — https://www.redcedarcounseling.org/
+- Spring Forest Counseling — https://springforestcounseling.com/
+- Blooming Minds Therapy — https://www.bloomingmindstherapy.com/
+- Insight Counseling — https://insightcounseling.live/
+- Nedra Cannon LCSW Counseling — https://nedracannonlcswcounseling.com/
+
+All added to `candidates.md` as "to contact." Mike forwarded to Roxy same day.
+
+People entry: [[Resources/People/mid-michigan-therapy|Mid-Michigan Therapy]]
+
 ### 2026-05-08 — Amanda Fisher sent network referral
 
 Amanda (Belle Tower Group, our parent therapist) sent a referral request to

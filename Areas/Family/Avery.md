@@ -18,4 +18,5 @@ are filed in `Areas/Family/Avery/` by `/school-email-triage` — see
 
 ## Recent activity
 
+- 2026-05-08 — 1 email filed from Robert L. Green Weekly Notes → [[Projects/robert-l-green/2026-05-08-1200-robert-l-green-weekly-notes]]
 - 2026-01-18 — Birthday idea: snow tools

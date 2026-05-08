@@ -16,6 +16,7 @@ are soft targets — update them as the situation evolves.
 | Date | Event | Follow-up by |
 |---|---|---|
 | 2026-05-08 | Amanda Fisher sent network referral to Lansing therapist community | 2026-05-15 — check with Amanda if no responses |
+| 2026-05-07 | Received 5 referrals from Mid-Michigan Therapy (can't take UHC) | 2026-05-15 — contact each practice |
 
 ---
 
@@ -24,6 +25,7 @@ are soft targets — update them as the situation evolves.
 | Date | Event |
 |---|---|
 | 2026-05-08 | Project opened; Amanda engaged as search coordinator |
+| 2026-05-07 | Contacted Mid-Michigan Therapy; declined (no UHC therapists available) |
 
 ---
 

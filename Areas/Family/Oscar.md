@@ -20,8 +20,6 @@ Written April 20 for a behavior specialist or counselor intake:
 
 Oscar (14) has challenges with emotional regulation, mostly around anger and anxiety, and a compulsive candy habit — stealing at home and school for years, breaking into a lockbox with a crowbar. When mad, takes it out on us and the home. Taking away privileges (screens) pushes him to "you can't do anything else to me" and makes behavior worse in the moment.
 
-Mike is a late-diagnosed ADHDer (diagnosed Jan 2025 at age 39) — his own showing up over the years has likely shaped Oscar's growth. Mike and Roxy have struggled to align on parenting approaches. Mike's parents were teachers (one special ed); Roxy from a fairly strict military background. Looking for help developing strategies together.
-
 ---
 
 ## Open loops

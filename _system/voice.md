@@ -11,4 +11,4 @@ the end." Each entry should be short and actionable.
 
 ## Preferences
 
-(none yet — grow from feedback)
+- **Calendar target:** Push school email events to the iCloud **Personal** calendar (`4b08b37e403d9a74ad653ca58c80184cba6e7f3d`), not the default Google calendar.

@@ -22,7 +22,8 @@ topics (school, activities, medical) usually warrant their own project.
 - [[Nigel]] — Nigel: school emails, events, action items
 - [[Avery]] — Avery: school emails, events, action items
 - [[oscar-therapist-search]] — Oscar: finding a therapist (emotional regulation, anxiety, ADHD)
+- [[Projects/robert-l-green]] — Robert L. Green Elementary: school emails for Nigel & Avery
 
 ## Recent activity
 
-(none yet)
+- 2026-05-08 — Robert L. Green Weekly Notes filed (Nigel & Avery)

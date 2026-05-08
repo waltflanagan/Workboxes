@@ -18,4 +18,4 @@ are filed in `Areas/Family/Nigel/` by `/school-email-triage` — see
 
 ## Recent activity
 
-(none yet)
+- 2026-05-08 — 1 email filed from Robert L. Green Weekly Notes → [[Projects/robert-l-green/2026-05-08-1200-robert-l-green-weekly-notes]]
