@@ -53,3 +53,35 @@ added or removed, schema tweaks. Newest entries at the bottom.
 - Symlinked `CLAUDE.md` → `AGENTS.md` so Claude Code and opencode both
   auto-load the entrypoint. Fixes silent failure where agents started in
   the vault without reading the operating manual.
+
+### 2026-05-08 — Vulnerability practice
+
+- Created `Areas/Growth/Practices/vulnerability.md` (situational cadence)
+  from a Brené-Brown-framed YouTube transcript. Sections: definition, why,
+  iceberg model for how to practice, examples, reflection questions
+  (self-check / event / current-problem), long-term self-check.
+- Extended `vulnerability.md` with a "Green flags" section from Heidi
+  Priebe's "10 green flags for vulnerability" video. Organized by other /
+  self / relationship, with a quick-filter checklist for in-the-moment
+  decisions about when and with whom to share.
+- Extended `vulnerability.md` with an "Overdoing vulnerability" section
+  from Heidi Priebe's "Are you overdoing vulnerability?" video. Five
+  signs (slow recovery, argument-spiral, resentment-without-anger,
+  feeling out-of-control, "vulnerability isn't working") with
+  course-correct moves and a quick checklist. Frame: secure vs. reckless
+  vulnerability.
+- Extended `vulnerability.md` with a "When vulnerability backfires"
+  section from Heidi Priebe's integrity-frame video. Two-ingredient
+  model (sharing-not-pitching + receptive receiver), reception spectrum
+  including the dissociative-but-well-meaning middle zone, three
+  attachment-style responses to bad reception (anxious / avoidant /
+  secure), the "I'm okay, you're okay" worldview, and a five-question
+  diagnostic for after a share that went sideways.
+- Created `Areas/Growth/Practices/validation.md` (situational cadence)
+  from the "Ricky and Jimmy on Relationships" validation podcast.
+  Sections: definition, sharer-vs-receiver skills, NVC formula, validating
+  phrases, invalidating phrases (never-say list), anxious/avoidant
+  guessing nuance, naming defensiveness, kitchen-sink rule, weekly
+  check-in, internal/external processor protocol, Gottman 15:1 ratio,
+  reflection questions, long-term self-check. Wikilinked to
+  [[vulnerability]].
