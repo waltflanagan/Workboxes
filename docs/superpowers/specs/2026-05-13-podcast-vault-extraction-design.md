@@ -34,7 +34,7 @@ After migration, these are deleted from relationship-agent:
 
 `Workboxes/Areas/Personal/podcast-log.md` stays in Workboxes — it is the active listening log, not archive content.
 
-`scan_journals.py` stays in `relationship-agent/scripts/learning/` (out of scope — it bridges relationship journals and podcast inbox; will be handled separately).
+`scan_journals.py` moves with the rest of `scripts/learning/` to `podcast-vault/scripts/`. Its internal path updates (INBOX_DIR, vault scan targets) are out of scope and will be handled separately.
 
 ## Reference Updates
 
