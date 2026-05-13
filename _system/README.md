@@ -15,14 +15,12 @@ Claude operates the vault using the files in `_system/`.
   structure.
 - **`triage-rules.md`** — learned routing rules. Read this during triage to
   find high-confidence matches.
-- **`voice.md`** — user voice and preferences. Consult before producing any
-  user-facing text (summaries, proposals, questions).
 - **`capture-sources.md`** — inventory of capture sources, their provenance
   fields, and setup quirks. Consult when normalizing or debugging a source.
-- **`growth-prompts.md`** — prompt content for `/review-daily`,
+- **`Areas/Growth/growth-prompts.md`** — prompt content for `/review-daily`,
   `/review-weekly`, and `/review-quarterly`. Edit to tune review
   voice or prompts.
-- **`growth-surfacing.md`** — scan rules `/triage` uses to suggest
+- **`Areas/Growth/growth-surfacing.md`** — scan rules `/triage` uses to suggest
   Growth links and dispositions. Extend as new patterns emerge.
 - **`changelog.md`** — append-only log of structural changes to the vault.
   Append here after any workbox creation, archive, rule addition, or schema
@@ -67,7 +65,7 @@ extract rules, log.
 - `/review-weekly` — Sunday pass over the week.
 - `/review-quarterly` — end-of-quarter reset.
 
-See `_system/growth-prompts.md` for what each review loads and asks.
+See `Areas/Growth/growth-prompts.md` for what each review loads and asks.
 
 ## How to create Growth content
 
