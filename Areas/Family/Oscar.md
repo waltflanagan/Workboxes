@@ -6,6 +6,18 @@ owner_notes:
 
 # Oscar
 
+## Active Thread
+
+*As of May 2026*
+
+- Under in-school supervision — school holding escalating consequences; Mike letting them land without softening
+- Behavior contract: stalled. Both Mike and Roxy want to restart. Locate draft (was on Roxy's laptop). Schedule time together.
+- Medication: Dr. Kennedy manages quarterly. Script expired May 2026 — refill expected from May 5 appointment. Mike has backup dose.
+- Cedar Point trip: permission slip + $100 was due May 7. Confirm status.
+- **Mike's task**: Write down parenting limits with Oscar before the next flare-up. Don't invent them under pressure.
+
+---
+
 ## Claude: Read this first
 
 Notes, emails, events, and action items related to Oscar. School communications
