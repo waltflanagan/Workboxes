@@ -85,6 +85,12 @@ added or removed, schema tweaks. Newest entries at the bottom.
   auto-load the entrypoint. Fixes silent failure where agents started in
   the vault without reading the operating manual.
 
+### 2026-05-10 — Summer Vacation 2026 project
+
+- Created `Areas/Family/_index.md` (Family area MOC — previously missing despite area being referenced).
+- Created `Areas/Family/Projects/summer-vacation-2026/_index.md` (project MOC).
+- Created `Areas/Family/Projects/summer-vacation-2026/destinations.md` (destination comparison note; decision TBD).
+
 ### 2026-05-08 — Vulnerability practice
 
 - Created `Areas/Growth/Practices/vulnerability.md` (situational cadence)
@@ -116,3 +122,21 @@ added or removed, schema tweaks. Newest entries at the bottom.
   check-in, internal/external processor protocol, Gottman 15:1 ratio,
   reflection questions, long-term self-check. Wikilinked to
   [[vulnerability]].
+
+### 2026-05-12 — Top-of-mind dashboard
+
+- Created `top-of-mind.md` at vault root — living snapshot of the most
+  active threads across all areas. One section per area with wikilinks
+  to underlying project/content files.
+
+### 2026-05-10 — Schema refactor
+
+- Extracted all per-type schemas from `_system/workbox-schema.md` into
+  individual files under `_system/schemas/`:
+  - `inbox-item.md`
+  - `workbox-content.md` (content files + MOC types + MOC templates + file-type conventions)
+  - `school-email.md`
+  - `resources.md` (Resources wiki + person)
+  - `growth.md` (all Growth content types + lifecycle rules)
+- `workbox-schema.md` now contains only folder layout, naming conventions,
+  evolution rules, and a schema map table pointing to the individual files.

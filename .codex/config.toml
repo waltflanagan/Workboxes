@@ -1,0 +1,3 @@
+[mcp_servers.drafts]
+args = ["@agiletortoise/drafts-mcp-server"]
+command = "npx"

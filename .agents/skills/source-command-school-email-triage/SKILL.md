@@ -1,6 +1,13 @@
 ---
-description: Pull school and district emails from Gmail, extract events and action items, file notes per child, push to Calendar and Things.
+name: "source-command-school-email-triage"
+description: "Pull school and district emails from Gmail, extract events and action items, file notes per child, push to Calendar and Things."
 ---
+
+# source-command-school-email-triage
+
+Use this skill when the user asks to run the migrated source command `school-email-triage`.
+
+## Command Template
 
 You are running the school email triage pipeline for the Workboxes vault.
 Follow this procedure exactly.

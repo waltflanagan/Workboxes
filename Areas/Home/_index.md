@@ -15,7 +15,7 @@ should be their own project folders.
 
 ## Open loops
 
-(none)
+- [[ideas]] — running list of home improvement ideas
 
 ## Projects
 

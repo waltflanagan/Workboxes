@@ -9,8 +9,8 @@ owner_notes:
 ## Claude: Read this first
 
 Projects for this area live in `Projects/`. Route inbox items here when they
-relate to partner, kids, parenting, or extended family. Ongoing parenting
-topics (school, activities, medical) usually warrant their own project.
+relate to partner, kids, parenting, extended family, or family logistics and
+planning.
 
 ## Open loops
 
@@ -18,12 +18,8 @@ topics (school, activities, medical) usually warrant their own project.
 
 ## Projects
 
-- [[Oscar]] — Oscar: school emails, events, action items
-- [[Nigel]] — Nigel: school emails, events, action items
-- [[Avery]] — Avery: school emails, events, action items
-- [[oscar-therapist-search]] — Oscar: finding a therapist (emotional regulation, anxiety, ADHD)
-- [[Projects/robert-l-green]] — Robert L. Green Elementary: school emails for Nigel & Avery
+- [[Areas/Family/Projects/summer-vacation-2026/_index|Summer Vacation 2026]]
 
 ## Recent activity
 
-- 2026-05-08 — Robert L. Green Weekly Notes filed (Nigel & Avery)
+- 2026-05-10 — Created area; added Summer Vacation 2026 project

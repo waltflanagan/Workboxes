@@ -1,6 +1,13 @@
 ---
-description: Run the quarterly Growth review — archive current intention, draft next, check in on values, goals, and themes.
+name: "source-command-review-quarterly"
+description: "Run the quarterly Growth review — archive current intention, draft next, check in on values, goals, and themes."
 ---
+
+# source-command-review-quarterly
+
+Use this skill when the user asks to run the migrated source command `review-quarterly`.
+
+## Command Template
 
 You are running the quarterly Growth review for the Workboxes vault.
 

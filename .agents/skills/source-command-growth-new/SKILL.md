@@ -1,6 +1,13 @@
 ---
-description: Create a new Growth content file (value, goal, intention, practice, theme, or therapy session).
+name: "source-command-growth-new"
+description: "Create a new Growth content file (value, goal, intention, practice, theme, or therapy session)."
 ---
+
+# source-command-growth-new
+
+Use this skill when the user asks to run the migrated source command `growth-new`.
+
+## Command Template
 
 You are creating a new Growth content file in the Workboxes vault.
 Follow this procedure.
