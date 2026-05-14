@@ -27,6 +27,8 @@ Claude operates the vault using the files in `_system/`.
   tweak.
 - **`sync-state.json`** — per-source sync high-water-marks. The only non-
   markdown file in the vault; machine-managed by pull-sync scripts.
+- **`github-issues-backend.md`** — operating rules for using GitHub Issues as
+  the durable backlog while Things remains the execution layer.
 
 ## Active areas
 

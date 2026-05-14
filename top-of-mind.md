@@ -92,7 +92,6 @@ Active study: [[Areas/Growth/Practices/vulnerability|vulnerability]] + [[Areas/G
 
 ## Personal
 
-- D&D Club at MMS — volunteering, materials shared via Band app
-- Reading queue: *The Overstory*, *Piranesi*, *Station Eleven*
+
 
 → [[Areas/Personal/_index|Personal]]

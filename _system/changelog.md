@@ -140,3 +140,12 @@ added or removed, schema tweaks. Newest entries at the bottom.
   - `growth.md` (all Growth content types + lifecycle rules)
 - `workbox-schema.md` now contains only folder layout, naming conventions,
   evolution rules, and a schema map table pointing to the individual files.
+
+### 2026-05-14 — GitHub issues backend
+
+- Added `_system/github-issues-backend.md` documenting GitHub Issues as the
+  durable backlog/context ledger and Things as the execution layer.
+- Added GitHub issue label vocabulary for item kind, area, waiting/blocked
+  status, top-of-mind visibility, and Things next-action linkage.
+- Updated `_system/README.md` to include the GitHub issues backend operating
+  file.
