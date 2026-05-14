@@ -29,6 +29,8 @@ Claude operates the vault using the files in `_system/`.
   markdown file in the vault; machine-managed by pull-sync scripts.
 - **`github-issues-backend.md`** — operating rules for using GitHub Issues as
   the durable backlog while Things remains the execution layer.
+- **`daily-log-workflow.md`** — whole-workspace daily logging workflow:
+  morning start, end-of-day review, tool snapshots, and trend detection.
 
 ## Active areas
 
@@ -68,6 +70,15 @@ extract rules, log.
 - `/review-quarterly` — end-of-quarter reset.
 
 See `Areas/Growth/growth-prompts.md` for what each review loads and asks.
+
+## How to run daily logs
+
+- `/daily-start` — review yesterday, look ahead to today, and create/update
+  `Daily/YYYY-MM-DD.md`.
+- `/daily-review` — close the daily log, reflect on what happened, capture
+  follow-ups, and identify trend signals.
+
+See `_system/daily-log-workflow.md` for the full operating flow.
 
 ## How to create Growth content
 

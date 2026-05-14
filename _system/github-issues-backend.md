@@ -12,11 +12,39 @@ date.
 - GitHub issue = one backlog atom.
 - Workboxes files = context, reference, history, and deeper notes.
 - Things task = concrete action under active execution pressure.
-- GitHub Projects = dashboard views over the backlog.
+- GitHub Projects = a few operational dashboards over the backlog.
 - `_system/TOP_OF_MIND.md` = capped surface of the most live issues.
 
 Do not try to recreate Things inside GitHub. GitHub can hold a messy full
 backlog. Things should stay small enough to be actionable.
+
+## GitHub Projects
+
+Keep GitHub Projects intentionally few. Dashboards express operating mode;
+labels express taxonomy.
+
+Default dashboards:
+
+- **Life** - Mike as a whole person: self, growth, health, relationships,
+  friendship/community, work/career, and personal direction.
+- **Family** - kids, parenting, school, family trips, family calendar/logistics,
+  and co-parenting threads.
+- **Home** - house, maintenance, household operations, money/admin, repairs,
+  and home-system ideas.
+
+Do not create one GitHub Project per Workboxes area or per Workboxes project by
+default. Use labels and saved views for those cuts.
+
+Recommended saved views:
+
+- **Life**: Top of Mind, Relationship Repair, Growth / Therapy, Waiting,
+  Has Things Action.
+- **Family**: Oscar, Nigel, Avery, Roxy / Co-parenting, School, Trips / Events,
+  Waiting, Has Things Action.
+- **Home**: Maintenance, Money / Admin, Ideas, Waiting, Has Things Action.
+
+Person-specific dashboards such as Oscar should normally be views inside
+Family, filtered by `person:*` labels, not separate GitHub Projects.
 
 ## When to create an issue
 
@@ -42,11 +70,20 @@ Use these labels as the base vocabulary:
 
 - `kind:todo` - backlog item that may become action
 - `kind:idea` - idea or possibility to revisit
+- `kind:decision` - unresolved choice or decision thread
 - `kind:top-of-mind` - active attention item included in the top-of-mind surface
 - `area:family` - Family area
-- `area:relationship` - Relationship area
-- `area:self` - Self and personal growth area
+- `area:relationships` - Relationships area
+- `area:growth` - Growth area
+- `area:health` - Health area
+- `area:home` - Home area
+- `area:finances` - Finances area
+- `area:personal` - Personal area
 - `area:work` - Work area
+- `person:oscar` - Oscar-specific or Oscar-centered thread
+- `person:nigel` - Nigel-specific or Nigel-centered thread
+- `person:avery` - Avery-specific or Avery-centered thread
+- `person:roxy` - Roxy-specific, relationship, or co-parenting thread
 - `status:waiting` - waiting on someone or something external
 - `status:blocked` - blocked until a condition changes
 - `next-action:things` - has or needs a Things task for execution

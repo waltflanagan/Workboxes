@@ -149,3 +149,38 @@ added or removed, schema tweaks. Newest entries at the bottom.
   status, top-of-mind visibility, and Things next-action linkage.
 - Updated `_system/README.md` to include the GitHub issues backend operating
   file.
+
+### 2026-05-14 — GitHub project dashboard strategy
+
+- Updated `_system/github-issues-backend.md` to define the default GitHub
+  Projects as three operational dashboards: Life, Family, and Home.
+- Clarified that child/person views, including Oscar, should be saved views
+  filtered by `person:*` labels rather than separate top-level GitHub Projects
+  by default.
+- Expanded the base label vocabulary to match Workboxes areas and add
+  `person:oscar`, `person:nigel`, `person:avery`, and `person:roxy`.
+
+### 2026-05-14 — Daily log workflow
+
+- Added `_system/daily-log-workflow.md` to define the whole-workspace daily
+  logging flow across Workboxes, GitHub, calendar, email, Slack, Things,
+  Drafts, and Day One.
+- Added `Daily/_template.md` for `Daily/YYYY-MM-DD.md` daily logs.
+- Added `.agents/skills/source-command-daily-start/` and
+  `.agents/skills/source-command-daily-review/`.
+- Added `/daily-start` and `/daily-review` Claude command shims.
+- Updated `_system/README.md` and `AGENTS.md` with the new daily commands.
+
+### 2026-05-14 — GitHub Projects configured
+
+- Renamed GitHub Project #5 from `Oscar` to `Family` and set its description
+  and readme around kids, parenting, school, trips, and co-parenting views.
+- Renamed GitHub Project #4 from an untitled project to `Life` and set its
+  description and readme around self, growth, health, relationships, work, and
+  personal-direction views.
+- Renamed GitHub Project #3 from an untitled project to `Home` and set its
+  description and readme around household systems, maintenance, money/admin,
+  repairs, and home ideas.
+- Created GitHub issues #2, #3, and #4 as manual saved-view setup checklists
+  for Life, Family, and Home respectively, and added each to its matching
+  project.
