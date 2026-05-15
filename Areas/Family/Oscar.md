@@ -12,8 +12,9 @@ owner_notes:
 
 - Under in-school supervision — school holding escalating consequences; Mike letting them land without softening
 - Behavior contract: stalled. Both Mike and Roxy want to restart. Locate draft (was on Roxy's laptop). Schedule time together.
+- 8th grade endgame / 9th grade transition: incoming 9th grade parent meeting recording is available. Upcoming school dates: 8th Grade Dance May 15, ELHS/Wilson field trip May 26, Cedar Point June 3.
 - Medication: Dr. Kennedy manages quarterly. Script expired May 2026 — refill expected from May 5 appointment. Mike has backup dose.
-- Cedar Point trip: permission slip + $100 was due May 7. Confirm status.
+- Cedar Point trip: permission slip + $100 was due May 7; trip is June 3. Confirm status.
 - **Mike's task**: Write down parenting limits with Oscar before the next flare-up. Don't invent them under pressure.
 
 ---
@@ -40,6 +41,7 @@ Oscar (14) has challenges with emotional regulation, mostly around anger and anx
 
 ## Recent activity
 
+- 2026-05-14 — 2 MacDonald school emails filed: incoming 9th grade parent meeting recording and Week 33 8th grade newsletter.
 - 2026-05-02 — TODO: Write out rules for paying off debt for Oscar
 - 2026-04-24 — Marching band parenting sync: misalignment on goal of the band meeting made it feel adversarial. Want a standing parenting sync to get on same page before heat of the moment.
 - 2026-04-23 — Spirit band option for non-competitive students: audition is for placement, not make-it-or-not
