@@ -1,26 +1,2 @@
----
-type: area-index
-status: active
-owner_notes:
----
-
-# Home
-
-## Claude: Read this first
-
-Projects for this area live in `Projects/`. Route inbox items here when they
-relate to the house, maintenance, moves, or household logistics (not finances
-— those live in `Finances/`). Ongoing projects like renovations or organizing
-should be their own project folders.
-
-## Open loops
-
-- [[ideas]] — running list of home improvement ideas
-
-## Projects
-
-(none yet)
-
-## Recent activity
-
-- 2026-04-18 — Kitchen faucet dripping; cartridge replacement note
+# MOVED
+# This file has been renamed to AGENTS.md in this directory.

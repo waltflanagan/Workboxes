@@ -15,9 +15,9 @@ You are running the weekly Growth review for the Workboxes vault.
 
 Read:
 
-1. `_system/README.md`
-2. `_system/voice.md`
-3. `_system/growth-prompts.md` — specifically the `## Weekly` section.
+1. 
+2. `AGENTS.md`
+3. `Areas/Growth/growth-prompts.md` — specifically the `## Weekly` section.
 
 ## 2. Check for an existing weekly today
 
@@ -93,7 +93,7 @@ For each proposed change in the user's answers:
 - **New homework:** propose → approve → append to `## Active` in
   `Therapy/homework.md`.
 - **New reflection / theme:** propose → approve → create file per
-  `_system/workbox-schema.md`.
+  `.agents/docs/schema.md`.
 
 Each edit is a separate approval step.
 

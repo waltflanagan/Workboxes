@@ -184,3 +184,30 @@ added or removed, schema tweaks. Newest entries at the bottom.
 - Created GitHub issues #2, #3, and #4 as manual saved-view setup checklists
   for Life, Family, and Home respectively, and added each to its matching
   project.
+
+### 2026-05-15 — System rebuild: _system/ -> .agents/docs/
+
+- Rewrote `AGENTS.md` as the single source of truth: absorbed `_system/README.md`,
+  added vault layout map, updated skills list, removed /morning and /sync.
+- Created `.agents/docs/` directory for all reference docs.
+- Consolidated `_system/workbox-schema.md` and all `_system/schemas/*.md` (5 files)
+  into a single `.agents/docs/schema.md`.
+- Moved `TOP_OF_MIND.md`, `triage-rules.md`, `changelog.md` to `.agents/docs/`.
+- Trimmed and moved `github-issues-backend.md` -> `.agents/docs/github-issues.md`.
+- Trimmed `capture-sources.md` (removed one-time setup instructions) -> `.agents/docs/`.
+- Moved `sync-state.json` to `.agents/sync-state.json`.
+- Deprecated `morning` and `sync` skills (stale vault paths and Python scripts).
+- Updated all active skill files: removed `_system/` paths, `voice.md` refs,
+  `README.md` reads; pointed to new `.agents/docs/` paths.
+- Cleared all old `_system/` files in-place (filesystem permissions prevent delete;
+  files contain MOVED notices pointing to new locations).
+
+### 2026-05-15 — _index.md -> AGENTS.md migration
+
+- Renamed all 21 `_index.md` files to `AGENTS.md` in their respective directories
+  (areas, projects, Growth sub-folders, Resources). Content preserved exactly.
+- Stubbed old `_index.md` files with MOVED notices.
+- Updated all references: root `AGENTS.md`, `.agents/docs/schema.md`,
+  `.claude/commands/triage.md`, `.claude/commands/review-daily.md`,
+  `.claude/commands/review-weekly.md` (also fixed remaining `_system/` paths
+  in triage.md and review commands while in those files).

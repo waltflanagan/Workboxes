@@ -8,9 +8,9 @@ You are running the weekly Growth review for the Workboxes vault.
 
 Read:
 
-1. `_system/README.md`
-2. `_system/voice.md`
-3. `_system/growth-prompts.md` — specifically the `## Weekly` section.
+1. `AGENTS.md`
+2. `AGENTS.md`
+3. `Areas/Growth/growth-prompts.md` — specifically the `## Weekly` section.
 
 ## 2. Check for an existing weekly today
 
@@ -79,14 +79,14 @@ If every answer was "nothing", still write the file with a top-level
 For each proposed change in the user's answers:
 
 - **Goal status transition:** propose → approve → edit the goal file's
-  `status` frontmatter → append to `Goals/_index.md` recent activity.
+  `status` frontmatter → append to `Goals/AGENTS.md` recent activity.
 - **Homework completion:** propose → approve → move item from
   `## Active` to `## Completed` in `Therapy/homework.md` with today's
   date.
 - **New homework:** propose → approve → append to `## Active` in
   `Therapy/homework.md`.
 - **New reflection / theme:** propose → approve → create file per
-  `_system/workbox-schema.md`.
+  `.agents/docs/schema.md`.
 
 Each edit is a separate approval step.
 

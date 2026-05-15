@@ -31,7 +31,7 @@ Reviews are not created via this command — they come from the
 
 ## 2. Load schema
 
-Read `_system/workbox-schema.md` — specifically the **Growth content
+Read `.agents/docs/schema.md` — specifically the **Growth content
 types** section — to get the exact frontmatter shape for the chosen
 type.
 
@@ -81,7 +81,7 @@ Ask only the fields the schema requires and that aren't derivable:
 
 Write the file with:
 
-- Full frontmatter per `_system/workbox-schema.md`.
+- Full frontmatter per `.agents/docs/schema.md`.
 - `created` or `date` set to today (ISO 8601).
 - `status` set to `active` where applicable.
 - A seeded body with the headings the type expects:
@@ -231,4 +231,4 @@ git commit -m "Growth: create <type> <slug>"
 
 ## Tone
 
-Terse. One prompt at a time. Consult `_system/voice.md`.
+Terse. One prompt at a time. Consult `AGENTS.md`.

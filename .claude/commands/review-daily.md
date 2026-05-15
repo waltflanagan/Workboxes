@@ -8,9 +8,9 @@ You are running the daily Growth review for the Workboxes vault.
 
 Read these files in order:
 
-1. `_system/README.md`
-2. `_system/voice.md`
-3. `_system/growth-prompts.md` — specifically the `## Daily` section.
+1. `AGENTS.md`
+2. `AGENTS.md`
+3. `Areas/Growth/growth-prompts.md` — specifically the `## Daily` section.
 
 ## 2. Check for an existing review today
 
@@ -26,7 +26,7 @@ If not, proceed.
 
 ## 3. Load what the Daily section asks for
 
-Per `_system/growth-prompts.md` ## Daily:
+Per `Areas/Growth/growth-prompts.md` ## Daily:
 
 - Find the current-period intention: list `Intentions/*.md` and pick
   the one whose `period` frontmatter contains today's date. (If

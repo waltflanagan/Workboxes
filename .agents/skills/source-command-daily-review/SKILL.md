@@ -15,11 +15,9 @@ You are closing today's daily log for the Workboxes vault.
 
 Read:
 
-1. `_system/README.md`
-2. `_system/TOP_OF_MIND.md`
-3. `_system/daily-log-workflow.md`
-4. `Daily/<today>.md`
-5. Open GitHub issues if accessible
+1. `.agents/docs/TOP_OF_MIND.md`
+2. `Daily/<today>.md`
+3. Open GitHub issues if accessible
 
 If `Daily/<today>.md` does not exist, create it from `Daily/_template.md` first
 and note that the morning pass was missed.
@@ -67,7 +65,7 @@ Propose, then wait for approval before changing other systems:
 - GitHub issue create/update/close
 - Things task create/update
 - Workboxes note update
-- `_system/TOP_OF_MIND.md` add/remove/update
+- `.agents/docs/TOP_OF_MIND.md` add/remove/update
 
 For trend detection, promote only repeated signals or clearly important single
 events. One-off feelings can stay in the daily log.

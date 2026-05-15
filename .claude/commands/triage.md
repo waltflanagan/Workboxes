@@ -8,15 +8,15 @@ You are triaging the Workboxes vault inbox. Follow this procedure exactly.
 
 Read these files in order:
 
-1. `_system/README.md` — entry point.
-2. `_system/workbox-schema.md` — conventions.
-3. `_system/triage-rules.md` — learned rules.
-4. `_system/voice.md` — user voice/preferences.
-5. Each file matching `Areas/*/_index.md` — for each, read only the YAML
+1. `AGENTS.md` — entry point.
+2. `.agents/docs/schema.md` — conventions.
+3. `.agents/docs/triage-rules.md` — learned rules.
+4. `AGENTS.md` — user voice/preferences.
+5. Each file matching `Areas/*/AGENTS.md` — for each, read only the YAML
    frontmatter and the first two sections ("# <Name>" heading and "## Claude:
    Read this first"). Do not read `## Open loops`, `## Projects`, or
    `## Recent activity` at this stage — they are not needed for routing.
-6. `_system/growth-surfacing.md` — the scan patterns used during
+6. `Areas/Growth/growth-surfacing.md` — the scan patterns used during
    disposition proposals for Growth content.
 7. For Growth surfacing (used in step 3): list
    `Areas/Growth/Values/*.md`, `Areas/Growth/Goals/*.md`,
@@ -25,7 +25,7 @@ Read these files in order:
    these during proposal. You do not need to read their bodies.
 
 **Cross-check active areas.** The list of Areas on disk (`Areas/*/`) is the
-authoritative source. If `_system/README.md`'s `## Active areas` section
+authoritative source. If `AGENTS.md`'s `## Active areas` section
 disagrees with the filesystem (an area listed that doesn't exist, or an area
 on disk not listed), flag it to the user at session start and offer to fix
 the README before proceeding.
@@ -82,13 +82,13 @@ For each item, choose one:
     topic) that fits an existing `goal`, `value`, `practice`, or
     `therapy-homework` target. Propose the target file and the exact
     bullet to append. On approval, append under the target's activity
-    section (per `_system/workbox-schema.md` append exception rules)
+    section (per `.agents/docs/schema.md` append exception rules)
     and `git rm` the original inbox item.
 
 ### Applying growth surfacing
 
 In parallel with the rules check, scan the item using
-`_system/growth-surfacing.md` patterns against the Growth content
+`Areas/Growth/growth-surfacing.md` patterns against the Growth content
 loaded in step 1. If any pattern matches:
 
 - If a theme slug matches, or the item is reflective without any theme
@@ -101,7 +101,7 @@ loaded in step 1. If any pattern matches:
 
 ### Applying triage rules
 
-Before proposing, scan `_system/triage-rules.md`. If an item matches a rule
+Before proposing, scan `.agents/docs/triage-rules.md`. If an item matches a rule
 top-to-bottom, mark the proposal **high-confidence** and prefix the rationale
 with "(rule: <rule name>)". Otherwise mark **medium** or **low** confidence
 based on how specifically the item matches a workbox.
@@ -114,7 +114,7 @@ ask the user's preference at the start of the session). For each:
 - Show: filename, source, one-line content summary, proposed disposition,
   rationale, confidence.
 - User responses: **approve**, **change to <X>**, **defer**, **skip**.
-- Keep the conversation terse (consult `_system/voice.md`).
+- Keep the conversation terse (see AGENTS.md for communication style).
 
 ## 5. Execute approved dispositions
 
@@ -131,19 +131,19 @@ For each approved item, perform these actions:
    Preserve `source`, `source_id`, `source_url`. Rename `captured` to
    `created`. Keep `tags`.
 4. Move the file: `git mv Inbox/<filename>.md <target path>/<filename>.md`.
-5. Append to the target workbox's `_index.md` under `## Recent activity`:
+5. Append to the target workbox's `AGENTS.md` under `## Recent activity`:
    `- YYYY-MM-DD — <one-line summary>`.
 
 ### New project
 
 1. Ask user for a kebab-case project slug if not already provided.
 2. Create directory: `Areas/<area>/Projects/<slug>/`.
-3. Create `Areas/<area>/Projects/<slug>/_index.md` from the project MOC
-   template in `_system/workbox-schema.md`. Fill in `# <Project Name>` and
+3. Create `Areas/<area>/Projects/<slug>/AGENTS.md` from the project MOC
+   template in `.agents/docs/schema.md`. Fill in `# <Project Name>` and
    a seeded "Claude: Read this first" paragraph describing the project in
    1-2 sentences based on what you know from the inbox items being routed
    here.
-4. Append to `Areas/<area>/_index.md` under `## Projects`:
+4. Append to `Areas/<area>/AGENTS.md` under `## Projects`:
    `- [[<slug>]] — <one-line description>`.
 5. Route the item(s) into the new project (see Route above).
 
@@ -152,8 +152,8 @@ For each approved item, perform these actions:
 1. Confirm with the user that this genuinely doesn't fit an existing area.
 2. Ask for a kebab-case area slug.
 3. Create directory: `Areas/<slug>/Projects/`.
-4. Create `Areas/<slug>/_index.md` from the area MOC template.
-5. Append to `_system/README.md` under `## Active areas` in the correct
+4. Create `Areas/<slug>/AGENTS.md` from the area MOC template.
+5. Append to `AGENTS.md` under `## Active areas` in the correct
    alphabetical position.
 6. Route the item (see Route above).
 
@@ -175,18 +175,18 @@ Leave the file in `Inbox/`.
    `source_id`, `source_url`, `tags`.
 3. Move: `git mv Inbox/<filename>.md
    Areas/Growth/Themes/<slug>/<filename>.md`.
-4. Append to `Areas/Growth/Themes/<slug>/_index.md` under
+4. Append to `Areas/Growth/Themes/<slug>/AGENTS.md` under
    `## Reflections`: `- [[<filename>]] — <one-line summary>`.
 
 ### Route to Growth — new theme
 
 1. Ask the user for a kebab-case theme slug if not already provided.
 2. Create directory: `Areas/Growth/Themes/<slug>/`.
-3. Create `Areas/Growth/Themes/<slug>/_index.md` from the theme MOC
-   template in `_system/workbox-schema.md`. Seed the "What this
+3. Create `Areas/Growth/Themes/<slug>/AGENTS.md` from the theme MOC
+   template in `.agents/docs/schema.md`. Seed the "What this
    theme is" section with 1–2 sentences based on the inbox item
    being routed here.
-4. Append to `Areas/Growth/Themes/_index.md` under `## Recent
+4. Append to `Areas/Growth/Themes/AGENTS.md` under `## Recent
    activity`: `- YYYY-MM-DD — New theme [[<slug>]]`.
 5. Route the item as a new reflection (see above).
 
@@ -194,16 +194,16 @@ Leave the file in `Inbox/`.
 
 1. Determine the target file and its type (`goal`, `value`,
    `practice`, or `therapy-homework`).
-2. Determine the append section per `_system/workbox-schema.md`:
+2. Determine the append section per `.agents/docs/schema.md`:
    - `goal`, `value`, `practice` → `## Activity`
    - `therapy-homework` → `## Active`
 3. If the target file lacks the section, add it.
 4. Append a bullet of the form:
    `- YYYY-MM-DD — <one-line summary from the inbox item>`.
 5. `git rm Inbox/<filename>.md` (the bullet is the preserved form).
-6. Append to the target's parent MOC (`Goals/_index.md`,
-   `Values/_index.md`, `Practices/_index.md`, or
-   `Therapy/_index.md`) under `## Recent activity`:
+6. Append to the target's parent MOC (`Goals/AGENTS.md`,
+   `Values/AGENTS.md`, `Practices/AGENTS.md`, or
+   `Therapy/AGENTS.md`) under `## Recent activity`:
    `- YYYY-MM-DD — Append to [[<target-slug>]]`.
 
 ### Surfacing-only annotation (non-Growth routes)
@@ -218,7 +218,7 @@ prefers).
 
 For each case where the user overrode your proposal in a way that looks
 pattern-y (e.g., "always route Day One gratitude entries to
-Personal/Gratitude"), propose a new rule for `_system/triage-rules.md` in
+Personal/Gratitude"), propose a new rule for `.agents/docs/triage-rules.md` in
 the format specified in that file. Present the rule to the user; on approval,
 append it to `triage-rules.md`.
 
@@ -227,7 +227,7 @@ decision apply to three or more similar items?" If unsure, don't propose.
 
 ## 7. Log the session
 
-Append an entry to `_system/changelog.md` under `## Entries`:
+Append an entry to `.agents/docs/changelog.md` under `## Entries`:
 
 ```markdown
 ### <YYYY-MM-DD> — Triage session
@@ -256,6 +256,6 @@ frontmatter changes), skip the commit step.
 
 ## Tone
 
-Consult `_system/voice.md` for user voice. Default to terse proposals. No
+Terse. terse proposals. No
 trailing summaries unless the user asks. Respect the user's time — this is
 a tool they use to reduce cognitive load, not generate more of it.

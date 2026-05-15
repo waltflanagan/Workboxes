@@ -1,8 +1,6 @@
-# /morning — Daily Briefing Skill
+# DEPRECATED — use /daily-start
 
-Interactive morning briefing. Walks through context domain by domain, pausing
-after each section for the user's input before moving on. This skill also
-handles thought capture at any point in the conversation.
+This skill references an old vault layout and Python scripts that no longer exist.
 
 ---
 

@@ -15,9 +15,9 @@ You are running the quarterly Growth review for the Workboxes vault.
 
 Read:
 
-1. `_system/README.md`
-2. `_system/voice.md`
-3. `_system/growth-prompts.md` — specifically the `## Quarterly`
+1. 
+2. `AGENTS.md`
+3. `Areas/Growth/growth-prompts.md` — specifically the `## Quarterly`
    section.
 
 ## 2. Check for an existing quarterly today

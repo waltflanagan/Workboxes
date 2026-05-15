@@ -16,20 +16,19 @@ Follow this procedure exactly.
 
 Read these files in order:
 
-1. `_system/README.md`
-2. `_system/workbox-schema.md` — especially the `school-email` frontmatter type.
-3. `_system/school-email-senders.md` — the sender config. If placeholder
-   addresses are still present (contain `.example.com`), stop and tell the
-   user to fill in their real sender addresses before proceeding.
-4. `_system/sync-state.json` — high-water marks. Missing keys = first run for
+1. `.agents/docs/schema.md` — especially the `school-email` frontmatter type.
+2. `.agents/docs/school-email-senders.md` — the sender config (one entry per
+   sender with `child`, `gmail_query`, `label`, and `email_type` fields). If
+   this file does not exist, stop and tell the user to create it before
+   proceeding. If placeholder addresses are still present, stop.
+3. `.agents/sync-state.json` — high-water marks. Missing keys = first run for
    that sender; default lookback window is 30 days.
-5. `_system/voice.md` — tone/preferences.
-6. `Areas/Family/Oscar.md`, `Areas/Family/Nigel.md`, `Areas/Family/Avery.md`
+4. `Areas/Family/Oscar.md`, `Areas/Family/Nigel.md`, `Areas/Family/Avery.md`
    — for context on open loops.
 
 ## 2. Pull emails from Gmail
 
-For each sender entry in `_system/school-email-senders.md`:
+For each sender entry in `.agents/docs/school-email-senders.md`:
 
 1. Build a Gmail search query:
    - Start with the entry's `gmail_query` value.
@@ -171,13 +170,13 @@ For each child that received at least one new note, append to
 ## 5. Update sync-state.json
 
 For each sender entry processed successfully, update (or create) the key
-`gmail_<child>_<label-slug>` in `_system/sync-state.json` with today's ISO date.
+`gmail_<child>_<label-slug>` in `.agents/sync-state.json` with today's ISO date.
 
 The label slug is the sender's `label` value lowercased, spaces → hyphens,
 non-alphanumeric → removed. Example: "Oscar's school newsletter" →
 `oscars-school-newsletter`.
 
-Write the updated JSON back to `_system/sync-state.json`.
+Write the updated JSON back to `.agents/sync-state.json`.
 
 ## 6. Print a summary
 

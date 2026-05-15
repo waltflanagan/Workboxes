@@ -15,12 +15,10 @@ You are opening today's daily log for the Workboxes vault.
 
 Read:
 
-1. `_system/README.md`
-2. `_system/TOP_OF_MIND.md`
-3. `_system/daily-log-workflow.md`
-4. `Daily/_template.md`
-5. `Daily/<yesterday>.md` if it exists
-6. `Daily/<today>.md` if it exists
+1. `.agents/docs/TOP_OF_MIND.md`
+2. `Daily/_template.md`
+3. `Daily/<yesterday>.md` if it exists
+4. `Daily/<today>.md` if it exists
 
 ## 2. Create or append
 

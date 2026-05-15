@@ -1,8 +1,6 @@
-# /sync — External App Sync Skill
+# DEPRECATED
 
-Sync Things 3, Day One, Drafts, and Gmail into the vault inbox layer. Run when
-invoked as `/sync`. Each connector runs independently — one failure does not
-block the others.
+This skill references Python sync scripts and a vault layout that no longer exist. Sync is handled opportunistically within each skill via available MCP connectors.
 
 ## Thought capture
 
